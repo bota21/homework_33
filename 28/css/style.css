@@ -1,3 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
   font-family: arial, sans-serif;
   color: #fff;
@@ -5,7 +19,8 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container {
@@ -28,6 +43,8 @@ body {
 }
 
 .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 2%;
   margin-left: 0;
@@ -40,18 +57,31 @@ body {
 
 .menu {
   width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 40%;
 }
 
 .main {
   width: 300px;
   margin: 10% 0 0 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-title {
@@ -70,8 +100,12 @@ body {
   border: 2px solid #fff;
   border-radius: 5px;
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-button:hover {
@@ -109,6 +143,8 @@ body {
 }
 
 .third-block .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -121,8 +157,12 @@ body {
 }
 
 .third-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .first-third-logo {
@@ -169,17 +209,33 @@ body {
   min-height: 499px;
   background: url(../img/bg-nature.jpg) no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .forth-wrapper {
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 13%;
 }
 
@@ -213,8 +269,12 @@ footer a {
 }
 
 footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 35px;
 }
 
@@ -231,7 +291,10 @@ footer .container {
     padding-left: 30px;
   }
   .third-block_container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .third-block_container {
     margin: 0;
@@ -247,23 +310,37 @@ footer .container {
     display: none;
   }
   .menu {
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     margin: 20% 0 0 10%;
   }
   .main {
     margin-left: 4%;
   }
   .main-button {
-    margin-left: 35%;
+    margin-left: 15%;
+  }
+  .main-title{
+    font-size: 33px;
+  }
+  .main-text{
+    font-size: 13px;
   }
   .menu li {
     margin-top: 10px;
   }
   .second-block_container {
-    padding: 0 30px;
+    padding: 0 10px;
   }
   .third-block_container {
     width: 360px;
+  }
+  .forth-title{
+    font-size: 37px;
   }
 }
