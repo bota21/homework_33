@@ -1,8 +1,11 @@
-
 body {
   font-family: arial, sans-serif;
   color: #fff;
   background: #fff;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
@@ -11,6 +14,7 @@ body {
 }
 
 .header {
+  width: 100%;
   min-height: 500px;
   background: #F74C55 url(../img/bg-circles-full.jpg) 50% no-repeat;
 }
@@ -112,7 +116,7 @@ body {
   padding: 40px;
 }
 
-.second-wrapper {
+.third-block_container .wrapper:hover {
   background: #F74C55;
 }
 
@@ -212,4 +216,54 @@ footer .container {
   display: flex;
   justify-content: center;
   padding: 35px;
+}
+
+@media screen and (max-width: 925px) {
+  .container {
+    width: 846px;
+    margin: 0;
+  }
+  .main {
+    margin: 18% 0 0 42%;
+  }
+  .second-block_container {
+    width: 870px;
+    padding-left: 30px;
+  }
+  .third-block_container {
+    flex-direction: column;
+  }
+  .third-block_container {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .container {
+    width: 360px;
+    padding: 0;
+  }
+  .logo {
+    display: none;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20% 0 0 10%;
+  }
+  .main {
+    margin-left: 4%;
+  }
+  .main-button {
+    margin-left: 35%;
+  }
+  .menu li {
+    margin-top: 10px;
+  }
+  .second-block_container {
+    padding: 0 30px;
+  }
+  .third-block_container {
+    width: 360px;
+  }
 }
