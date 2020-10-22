@@ -1,0 +1,215 @@
+
+body {
+  font-family: arial, sans-serif;
+  color: #fff;
+  background: #fff;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 500px;
+  background: #F74C55 url(../img/bg-circles-full.jpg) 50% no-repeat;
+}
+
+.header a {
+  color: #fff;
+}
+
+.menu-list:hover {
+  color: black;
+}
+
+.picture {
+  display: flex;
+  padding-top: 2%;
+  margin-left: 0;
+}
+
+.logo {
+  margin-right: 20%;
+  display: block;
+}
+
+.menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40%;
+}
+
+.main {
+  width: 300px;
+  margin: 10% 0 0 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-title {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.main-text {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.main-button {
+  width: 130px;
+  font-size: 23px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-button:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid transparent;
+}
+
+.second-block {
+  color: #4b4a4a;
+  padding: 70px 0;
+}
+
+.second-title {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.second-text {
+  font-size: 14px;
+  line-height: 25px;
+  margin: 20px 0;
+}
+
+.second-img {
+  width: 178px;
+  height: 32px;
+  background: url(../img/bg-bricks.jpg) no-repeat;
+  background-size: cover;
+  margin: 60px 5px 0 40px;
+}
+
+.third-block {
+  background: #2D5F3A;
+}
+
+.third-block .container {
+  display: flex;
+}
+
+.wrapper {
+  padding: 40px;
+}
+
+.second-wrapper {
+  background: #F74C55;
+}
+
+.third-logo {
+  display: flex;
+  align-items: center;
+}
+
+.first-third-logo {
+  width: 28px;
+  height: 34px;
+  background-image: url(../img/ic-stat.png)
+}
+
+.third-title {
+  margin-left: 25px;
+}
+
+.third-text {
+  line-height: 25px;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.second-third-logo {
+  width: 36px;
+  height: 36px;
+  background-image: url(../img/ic-screen.png)
+}
+
+.third-third-logo {
+  width: 39px;
+  height: 27px;
+  background-image: url(../img/ic-cloud.png)
+}
+
+.plus {
+  margin-top: 20px;
+}
+
+.plus-one {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0px 10px;
+  color: #fff;
+  font-size: 42px;
+  margin-left: 80%;
+}
+
+.forth-block {
+  min-height: 499px;
+  background: url(../img/bg-nature.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.forth-wrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 13%;
+}
+
+.forth-title {
+  font-size: 50px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.forth-button {
+  margin-top: 30px;
+}
+
+.button-view {
+  color: #fff;
+  font-size: 30px;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.band {
+  width: 100%;
+  height: 10px;
+  background: url(../img/bg-bricks.jpg);
+}
+
+footer a {
+  color: #595959;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
