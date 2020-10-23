@@ -8,10 +8,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-decoration: none;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 /* make sure to set some focus styles for accessibility */
 
 :focus {
